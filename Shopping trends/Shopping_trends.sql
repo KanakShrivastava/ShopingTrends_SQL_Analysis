@@ -22,7 +22,6 @@ CREATE TABLE CustomerDetails (
     `Frequency of Purchases` VARCHAR(50)
 );
 
--- Easy
 -- Ques1. Retrieve all customers who are subscribed.
 SELECT *
 FROM CustomerDetails
@@ -38,7 +37,7 @@ SELECT *
 FROM CustomerDetails
 WHERE Season = 'Winter';
 
--- Intermediate
+
 -- Ques4. Calculate the average purchase amount for each category.
 SELECT Category, 
 avg(`Purchase Amount (USD)`) as Avg_purchase_amt
@@ -69,7 +68,6 @@ SUM(`Purchase Amount (USD)`) AS TotalAmount
 FROM CustomerDetails 
 GROUP BY `Payment Method`;
 
--- Hard Ques
 -- Ques9: Identify the customer who has made the highest number of previous purchases.
 SELECT `Customer ID`, 
 Max(`Previous Purchases`) AS Max_purchase
