@@ -1,6 +1,6 @@
 # ShopingTrends_SQL_Analysis
 ## Overview
-This is a personal project where I analyze customer purchase data to extract insights about customer behavior, including purchase amounts, demographics, and review ratings. The goal is to explore and understand the data better.
+This project focuses on analyzing customer purchase trends to uncover valuable insights into customer behavior and purchasing patterns. By examining attributes such as purchase amounts, customer demographics, item categories, and review ratings, the project aims to explore trends like spending habits, subscription status impact, the effect of discounts and promo codes, and seasonal preferences. The goal is to use SQL queries to aggregate and analyze the data, helping businesses make informed decisions about marketing strategies, customer segmentation, and inventory management based on data-driven insights.
 
 ## Dataset Columns
 Customer ID, Age, Gender, Location
